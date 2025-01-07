@@ -33,7 +33,7 @@ function displayMessage(userInput,response) {
 
     const botMessage = document.createElement('div');
       botMessage.textContent = `Bot: ${response}` ;
-      botMessage.style.color = '#dc3545';
+      botMessage.style.color = 'green';
       chatBox.appendChild(botMessage);
 
       chatBox.scrollTop = chatBox.scrollHeight;
