@@ -17,12 +17,10 @@ function getResponse(userInput) {
     for(const key in responses){
         if(userInputLower.includes(key))
     {
-        return 
-        responses[key];
+        return responses[key];
     }
 }
-     return
-     responses['default'];
+     return responses['default'];
 }
 
 //Function to display chat message
